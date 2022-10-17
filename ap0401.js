@@ -11,7 +11,7 @@ import { makeMetalRobot, makeCBRobot } from './robot.js'
 // ３Ｄページ作成関数の定義
 function init() {
   const param = { // カメラの設定値
-    fov: 50, // 視野角
+    fov: 60, // 視野角
     x: 30,
     y: 20,
     z: 40,
@@ -24,6 +24,7 @@ function init() {
   const axes = new THREE.AxesHelper(18);
   scene.add(axes);
 
+  // ロボットの作成
   const robot = makeMetalRobot();
   scene.add(robot);
 
