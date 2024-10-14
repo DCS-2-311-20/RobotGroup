@@ -1,11 +1,11 @@
 //
-// 応用プログラミング 第4回 課題1 (ap0401)
-// G184002021 拓殖太郎
+// 応用プログラミング 第3回 課題1 (ap0301)
+// G384002023 拓殖太郎
 //
 "use strict"; // 厳格モード
 
 import * as THREE from 'three';
-import GUI from 'gui';
+import GUI from 'ili-gui';
 import { makeMetalRobot, makeCBRobot } from './robot.js'
 
 // ３Ｄページ作成関数の定義
