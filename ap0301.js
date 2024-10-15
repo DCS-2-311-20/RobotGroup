@@ -29,7 +29,7 @@ function init() {
   scene.add(robot);
 
   // 光源の設定
-  const light = new THREE.SpotLight();
+  const light = new THREE.SpotLight(0xfffffff, 1800);
   light.position.set(0, 30, 30);
   scene.add(light);
   
